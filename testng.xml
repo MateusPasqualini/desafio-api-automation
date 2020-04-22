@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Simulation Suite Tests" verbose="1">
+
+    <listeners>
+        <listener class-name="br.com.southsystem.desafio.util.ReportListener"/>
+    </listeners>
+
+    <test enabled="true" name="Service Test" group-by-instances="true">
+        <classes>
+            <class name="br.com.southsystem.desafio.healthcheck.SimulacaoHealthCheck"/>
+            <class name="br.com.southsystem.desafio.contrato.SimulacaoContratoTest"/>
+            <class name="br.com.southsystem.desafio.aceitacao.SimulacaoAceitacaoTest"/>
+        </classes>
+    </test>
+</suite>
