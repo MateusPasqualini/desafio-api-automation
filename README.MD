@@ -7,7 +7,7 @@ UI. Não foi adicionado testes funcionais por ser uma API mockada,
 
 Referência utilizada para essa abordagem: https://www.slideshare.net/elias.nogueira/de-a-mxima-cobertura-nos-seus-testes-de-api 
 
-##Cenários desenvolvidos
+## Cenários desenvolvidos
 ```
 Cenário 1 
 Titulo:  Simulação - Listar opções extras 
@@ -54,7 +54,7 @@ Lá estará um arquivo HTML que pode ser aberto em um browser e visualizado.
 É possível alterar algumas configurações parametrizadas da suite de testes 
 através do arquivo de configuração do testng (testng.xml).
 - Habilitar/Desabilitar teste: Para habilitar ou desabilitar os testes basta mudar a flag
-"enabled" que se encontra na tag < test >. true para habilitar e false para desabilitar
+"enabled" que se encontra na tag    < test >. true para habilitar e false para desabilitar
 
 ## Link para Teste automatizado da UI
 [Desafio-ui-automation](https://github.com/MateusPasqualini/desafio-ui-automation)
